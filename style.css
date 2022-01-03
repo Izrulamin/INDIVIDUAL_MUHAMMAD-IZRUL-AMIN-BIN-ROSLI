@@ -1,0 +1,141 @@
+h1 {
+    font-size: 125px;
+    line-height: 10px;
+    font-family:'Amatic SC', cursive;
+    padding: 70px;
+    
+}
+
+h2{
+font-size: 125px;
+line-height: 10px;
+font-family:'Amatic SC', cursive;
+padding: 20px;
+
+}
+
+p{
+    font-size: 20;
+    font-family: 'Lobster Two', cursive;;
+}
+
+*{
+
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+nav{
+width: 100%;
+height: 40px;
+background-color :teal ;
+line-height: 50px;
+padding: 0px; padding: 100px;
+position:relative;
+z-index: 1;
+
+
+}
+
+nav ul{
+float :right
+}
+
+nav ul li {
+display: inline-block;
+list-style: none;
+}
+
+nav ul li a{
+color: #fff;
+text-decoration: none;
+font-size: 25px;
+text-transform: uppercase;
+padding: 0px 32px;
+
+
+}
+
+nav ul li a:hover{
+    color:yellow
+
+}
+
+img { 
+    display: block;
+    margin-left:auto ;
+    margin-right:auto ;}
+ 
+    
+.box-one {
+
+    border: 5px solid black ; 
+  background-color: lightblue;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace ;
+  font-weight: 500;
+  text-align: center;
+  margin: 70px ;
+  
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.column{
+    align-content: center;
+    float: left;
+    margin-bottom: 20px;
+    width: 30%
+
+}
+
+.row ::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+    justify-content: left;
+  }
+
+.img_align{
+    vertical-align: middle;
+
+}
+
+.internalcontainerL{
+    font-size: 18px;
+    line-height: 20px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding: 70px;
+    
+}
+
+.internalcontainerM{
+    font-size: 18px;
+    line-height: 20px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding: 70px;
+    
+}
+
+.internalcontainerR{
+    font-size: 18px;
+    line-height: 20px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding: 70px;
+    
+}
+
